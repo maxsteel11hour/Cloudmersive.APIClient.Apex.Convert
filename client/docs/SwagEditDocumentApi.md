@@ -5,29 +5,32 @@ All URIs are relative to *https://api.cloudmersive.com*
 Method | HTTP request | Description
 ------------- | ------------- | -------------
 [**editDocumentBeginEditing**](SwagEditDocumentApi.md#editDocumentBeginEditing) | **POST** /convert/edit/begin-editing | Begin editing a document
-[**editDocumentDocxBody**](SwagEditDocumentApi.md#editDocumentDocxBody) | **POST** /convert/edit/docx/get-body | Get body from a DOCX
-[**editDocumentDocxGetHeadersAndFooters**](SwagEditDocumentApi.md#editDocumentDocxGetHeadersAndFooters) | **POST** /convert/edit/docx/get-headers-and-footers | Get content of a footer from a DOCX
-[**editDocumentDocxGetImages**](SwagEditDocumentApi.md#editDocumentDocxGetImages) | **POST** /convert/edit/docx/get-images | Get images from a DOCX
-[**editDocumentDocxGetSections**](SwagEditDocumentApi.md#editDocumentDocxGetSections) | **POST** /convert/edit/docx/get-sections | Get sections from a DOCX
-[**editDocumentDocxGetStyles**](SwagEditDocumentApi.md#editDocumentDocxGetStyles) | **POST** /convert/edit/docx/get-styles | Get styles from a DOCX
-[**editDocumentDocxGetTables**](SwagEditDocumentApi.md#editDocumentDocxGetTables) | **POST** /convert/edit/docx/get-tables | Get tables in DOCX
-[**editDocumentDocxInsertImage**](SwagEditDocumentApi.md#editDocumentDocxInsertImage) | **POST** /convert/edit/docx/insert-image | Insert image into a DOCX
-[**editDocumentDocxInsertParagraph**](SwagEditDocumentApi.md#editDocumentDocxInsertParagraph) | **POST** /convert/edit/docx/insert-paragraph | Insert a new paragraph into a DOCX
-[**editDocumentDocxInsertTable**](SwagEditDocumentApi.md#editDocumentDocxInsertTable) | **POST** /convert/edit/docx/insert-table | Insert a new table into a DOCX
-[**editDocumentDocxRemoveHeadersAndFooters**](SwagEditDocumentApi.md#editDocumentDocxRemoveHeadersAndFooters) | **POST** /convert/edit/docx/remove-headers-and-footers | Remove headers and footers from DOCX
-[**editDocumentDocxRemoveObject**](SwagEditDocumentApi.md#editDocumentDocxRemoveObject) | **POST** /convert/edit/docx/remove-object | Delete any object in a DOCX
-[**editDocumentDocxReplace**](SwagEditDocumentApi.md#editDocumentDocxReplace) | **POST** /convert/edit/docx/replace-all | Replace string in DOCX
-[**editDocumentDocxSetFooter**](SwagEditDocumentApi.md#editDocumentDocxSetFooter) | **POST** /convert/edit/docx/set-footer | Set the footer in a DOCX
-[**editDocumentDocxSetFooterAddPageNumber**](SwagEditDocumentApi.md#editDocumentDocxSetFooterAddPageNumber) | **POST** /convert/edit/docx/set-footer/add-page-number | Add page number to footer in a DOCX
-[**editDocumentDocxSetHeader**](SwagEditDocumentApi.md#editDocumentDocxSetHeader) | **POST** /convert/edit/docx/set-header | Set the header in a DOCX
+[**editDocumentDocxBody**](SwagEditDocumentApi.md#editDocumentDocxBody) | **POST** /convert/edit/docx/get-body | Get body from a Word DOCX document
+[**editDocumentDocxDeletePages**](SwagEditDocumentApi.md#editDocumentDocxDeletePages) | **POST** /convert/edit/docx/delete-pages | Delete, remove pages from a Word DOCX document
+[**editDocumentDocxGetHeadersAndFooters**](SwagEditDocumentApi.md#editDocumentDocxGetHeadersAndFooters) | **POST** /convert/edit/docx/get-headers-and-footers | Get content of a footer from a Word DOCX document
+[**editDocumentDocxGetImages**](SwagEditDocumentApi.md#editDocumentDocxGetImages) | **POST** /convert/edit/docx/get-images | Get images from a Word DOCX document
+[**editDocumentDocxGetSections**](SwagEditDocumentApi.md#editDocumentDocxGetSections) | **POST** /convert/edit/docx/get-sections | Get sections from a Word DOCX document
+[**editDocumentDocxGetStyles**](SwagEditDocumentApi.md#editDocumentDocxGetStyles) | **POST** /convert/edit/docx/get-styles | Get styles from a Word DOCX document
+[**editDocumentDocxGetTables**](SwagEditDocumentApi.md#editDocumentDocxGetTables) | **POST** /convert/edit/docx/get-tables | Get tables in Word DOCX document
+[**editDocumentDocxInsertImage**](SwagEditDocumentApi.md#editDocumentDocxInsertImage) | **POST** /convert/edit/docx/insert-image | Insert image into a Word DOCX document
+[**editDocumentDocxInsertParagraph**](SwagEditDocumentApi.md#editDocumentDocxInsertParagraph) | **POST** /convert/edit/docx/insert-paragraph | Insert a new paragraph into a Word DOCX document
+[**editDocumentDocxInsertTable**](SwagEditDocumentApi.md#editDocumentDocxInsertTable) | **POST** /convert/edit/docx/insert-table | Insert a new table into a Word DOCX document
+[**editDocumentDocxInsertTableRow**](SwagEditDocumentApi.md#editDocumentDocxInsertTableRow) | **POST** /convert/edit/docx/insert-table-row | Insert a new row into an existing table in a Word DOCX document
+[**editDocumentDocxPages**](SwagEditDocumentApi.md#editDocumentDocxPages) | **POST** /convert/edit/docx/get-pages | Get pages and content from a Word DOCX document
+[**editDocumentDocxRemoveHeadersAndFooters**](SwagEditDocumentApi.md#editDocumentDocxRemoveHeadersAndFooters) | **POST** /convert/edit/docx/remove-headers-and-footers | Remove headers and footers from Word DOCX document
+[**editDocumentDocxRemoveObject**](SwagEditDocumentApi.md#editDocumentDocxRemoveObject) | **POST** /convert/edit/docx/remove-object | Delete any object in a Word DOCX document
+[**editDocumentDocxReplace**](SwagEditDocumentApi.md#editDocumentDocxReplace) | **POST** /convert/edit/docx/replace-all | Replace string in Word DOCX document
+[**editDocumentDocxSetFooter**](SwagEditDocumentApi.md#editDocumentDocxSetFooter) | **POST** /convert/edit/docx/set-footer | Set the footer in a Word DOCX document
+[**editDocumentDocxSetFooterAddPageNumber**](SwagEditDocumentApi.md#editDocumentDocxSetFooterAddPageNumber) | **POST** /convert/edit/docx/set-footer/add-page-number | Add page number to footer in a Word DOCX document
+[**editDocumentDocxSetHeader**](SwagEditDocumentApi.md#editDocumentDocxSetHeader) | **POST** /convert/edit/docx/set-header | Set the header in a Word DOCX document
 [**editDocumentFinishEditing**](SwagEditDocumentApi.md#editDocumentFinishEditing) | **POST** /convert/edit/finish-editing | Download result from document editing
-[**editDocumentPptxReplace**](SwagEditDocumentApi.md#editDocumentPptxReplace) | **POST** /convert/edit/pptx/replace-all | Replace string in PPTX
-[**editDocumentXlsxGetColumns**](SwagEditDocumentApi.md#editDocumentXlsxGetColumns) | **POST** /convert/edit/xlsx/get-columns | Get rows and cells from a XLSX worksheet
-[**editDocumentXlsxGetImages**](SwagEditDocumentApi.md#editDocumentXlsxGetImages) | **POST** /convert/edit/xlsx/get-images | Get images from a XLSX worksheet
-[**editDocumentXlsxGetRowsAndCells**](SwagEditDocumentApi.md#editDocumentXlsxGetRowsAndCells) | **POST** /convert/edit/xlsx/get-rows-and-cells | Get rows and cells from a XLSX worksheet
-[**editDocumentXlsxGetStyles**](SwagEditDocumentApi.md#editDocumentXlsxGetStyles) | **POST** /convert/edit/xlsx/get-styles | Get styles from a XLSX worksheet
-[**editDocumentXlsxGetWorksheets**](SwagEditDocumentApi.md#editDocumentXlsxGetWorksheets) | **POST** /convert/edit/xlsx/get-worksheets | Get worksheets from a XLSX
-[**editDocumentXlsxInsertWorksheet**](SwagEditDocumentApi.md#editDocumentXlsxInsertWorksheet) | **POST** /convert/edit/xlsx/insert-worksheet | Insert a new worksheet into an XLSX spreadsheet
+[**editDocumentPptxReplace**](SwagEditDocumentApi.md#editDocumentPptxReplace) | **POST** /convert/edit/pptx/replace-all | Replace string in PowerPoint PPTX presentation
+[**editDocumentXlsxGetColumns**](SwagEditDocumentApi.md#editDocumentXlsxGetColumns) | **POST** /convert/edit/xlsx/get-columns | Get rows and cells from a Excel XLSX spreadsheet, worksheet
+[**editDocumentXlsxGetImages**](SwagEditDocumentApi.md#editDocumentXlsxGetImages) | **POST** /convert/edit/xlsx/get-images | Get images from a Excel XLSX spreadsheet, worksheet
+[**editDocumentXlsxGetRowsAndCells**](SwagEditDocumentApi.md#editDocumentXlsxGetRowsAndCells) | **POST** /convert/edit/xlsx/get-rows-and-cells | Get rows and cells from a Word XLSX spreadsheet, worksheet
+[**editDocumentXlsxGetStyles**](SwagEditDocumentApi.md#editDocumentXlsxGetStyles) | **POST** /convert/edit/xlsx/get-styles | Get styles from a Excel XLSX spreadsheet, worksheet
+[**editDocumentXlsxGetWorksheets**](SwagEditDocumentApi.md#editDocumentXlsxGetWorksheets) | **POST** /convert/edit/xlsx/get-worksheets | Get worksheets from a Excel XLSX spreadsheet
+[**editDocumentXlsxInsertWorksheet**](SwagEditDocumentApi.md#editDocumentXlsxInsertWorksheet) | **POST** /convert/edit/xlsx/insert-worksheet | Insert a new worksheet into an Excel XLSX spreadsheet
 
 
 <a name="editDocumentBeginEditing"></a>
@@ -83,7 +86,7 @@ Name | Type | Description  | Notes
 # **editDocumentDocxBody**
 > SwagGetDocxBodyResponse editDocumentDocxBody(reqConfig)
 
-Get body from a DOCX
+Get body from a Word DOCX document
 
 Returns the body defined in the Word Document (DOCX) format file; this is the main content part of a DOCX document
 
@@ -113,7 +116,7 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **reqConfig** | [**SwagGetDocxBodyRequest**](SwagGetDocxBodyRequest.md)|  |
+ **reqConfig** | [**SwagGetDocxBodyRequest**](SwagGetDocxBodyRequest.md)| Document input request |
 
 ### Return type
 
@@ -128,11 +131,60 @@ Name | Type | Description  | Notes
  - **Content-Type**: application/json
  - **Accept**: application/json
 
+<a name="editDocumentDocxDeletePages"></a>
+# **editDocumentDocxDeletePages**
+> Blob editDocumentDocxDeletePages(reqConfig)
+
+Delete, remove pages from a Word DOCX document
+
+Returns the pages and contents of each page defined in the Word Document (DOCX) format file
+
+### Example
+```java
+SwagEditDocumentApi api = new SwagEditDocumentApi();
+SwagClient client = api.getClient();
+
+// Configure API key authorization: Apikey
+ApiKeyAuth Apikey = (ApiKeyAuth) client.getAuthentication('Apikey');
+Apikey.setApiKey('YOUR API KEY');
+
+Map<String, Object> params = new Map<String, Object>{
+    'reqConfig' => SwagRemoveDocxPagesRequest.getExample()
+};
+
+try {
+    // cross your fingers
+    Blob result = api.editDocumentDocxDeletePages(params);
+    System.debug(result);
+} catch (Swagger.ApiException e) {
+    // ...handle your exceptions
+}
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **reqConfig** | [**SwagRemoveDocxPagesRequest**](SwagRemoveDocxPagesRequest.md)| Document input request |
+
+### Return type
+
+**Blob**
+
+### Authorization
+
+[Apikey](../README.md#Apikey)
+
+### HTTP request headers
+
+ - **Content-Type**: application/json
+ - **Accept**: application/json
+
 <a name="editDocumentDocxGetHeadersAndFooters"></a>
 # **editDocumentDocxGetHeadersAndFooters**
 > SwagGetDocxHeadersAndFootersResponse editDocumentDocxGetHeadersAndFooters(reqConfig)
 
-Get content of a footer from a DOCX
+Get content of a footer from a Word DOCX document
 
 Returns the footer content from a Word Document (DOCX) format file
 
@@ -162,7 +214,7 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **reqConfig** | [**SwagGetDocxHeadersAndFootersRequest**](SwagGetDocxHeadersAndFootersRequest.md)|  |
+ **reqConfig** | [**SwagGetDocxHeadersAndFootersRequest**](SwagGetDocxHeadersAndFootersRequest.md)| Document input request |
 
 ### Return type
 
@@ -181,7 +233,7 @@ Name | Type | Description  | Notes
 # **editDocumentDocxGetImages**
 > SwagGetDocxImagesResponse editDocumentDocxGetImages(reqConfig)
 
-Get images from a DOCX
+Get images from a Word DOCX document
 
 Returns the images defined in the Word Document (DOCX) format file
 
@@ -211,7 +263,7 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **reqConfig** | [**SwagGetDocxImagesRequest**](SwagGetDocxImagesRequest.md)|  |
+ **reqConfig** | [**SwagGetDocxImagesRequest**](SwagGetDocxImagesRequest.md)| Document input request |
 
 ### Return type
 
@@ -230,7 +282,7 @@ Name | Type | Description  | Notes
 # **editDocumentDocxGetSections**
 > SwagGetDocxSectionsResponse editDocumentDocxGetSections(reqConfig)
 
-Get sections from a DOCX
+Get sections from a Word DOCX document
 
 Returns the sections defined in the Word Document (DOCX) format file
 
@@ -260,7 +312,7 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **reqConfig** | [**SwagGetDocxSectionsRequest**](SwagGetDocxSectionsRequest.md)|  |
+ **reqConfig** | [**SwagGetDocxSectionsRequest**](SwagGetDocxSectionsRequest.md)| Document input request |
 
 ### Return type
 
@@ -279,7 +331,7 @@ Name | Type | Description  | Notes
 # **editDocumentDocxGetStyles**
 > SwagGetDocxStylesResponse editDocumentDocxGetStyles(reqConfig)
 
-Get styles from a DOCX
+Get styles from a Word DOCX document
 
 Returns the styles defined in the Word Document (DOCX) format file
 
@@ -309,7 +361,7 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **reqConfig** | [**SwagGetDocxStylesRequest**](SwagGetDocxStylesRequest.md)|  |
+ **reqConfig** | [**SwagGetDocxStylesRequest**](SwagGetDocxStylesRequest.md)| Document input request |
 
 ### Return type
 
@@ -328,7 +380,7 @@ Name | Type | Description  | Notes
 # **editDocumentDocxGetTables**
 > SwagGetDocxTablesResponse editDocumentDocxGetTables(reqConfig)
 
-Get tables in DOCX
+Get tables in Word DOCX document
 
 Returns all the table objects in an Office Word Document (docx)
 
@@ -358,7 +410,7 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **reqConfig** | [**SwagGetDocxTablesRequest**](SwagGetDocxTablesRequest.md)|  |
+ **reqConfig** | [**SwagGetDocxTablesRequest**](SwagGetDocxTablesRequest.md)| Document input request |
 
 ### Return type
 
@@ -377,9 +429,9 @@ Name | Type | Description  | Notes
 # **editDocumentDocxInsertImage**
 > SwagDocxInsertImageResponse editDocumentDocxInsertImage(reqConfig)
 
-Insert image into a DOCX
+Insert image into a Word DOCX document
 
-Set the footer in a Word Document (DOCX)
+Set the footer in a Word Document (DOCX).  Call Finish Editing on the output URL to complete the operation.
 
 ### Example
 ```java
@@ -407,7 +459,7 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **reqConfig** | [**SwagDocxInsertImageRequest**](SwagDocxInsertImageRequest.md)|  |
+ **reqConfig** | [**SwagDocxInsertImageRequest**](SwagDocxInsertImageRequest.md)| Document input request |
 
 ### Return type
 
@@ -426,9 +478,9 @@ Name | Type | Description  | Notes
 # **editDocumentDocxInsertParagraph**
 > SwagInsertDocxInsertParagraphRespons editDocumentDocxInsertParagraph(reqConfig)
 
-Insert a new paragraph into a DOCX
+Insert a new paragraph into a Word DOCX document
 
-Adds a new paragraph into a DOCX and returns the result.  You can insert at the beginning/end of a document, or before/after an existing object using its Path (location within the document).
+Adds a new paragraph into a DOCX and returns the result.  You can insert at the beginning/end of a document, or before/after an existing object using its Path (location within the document).  Call Finish Editing on the output URL to complete the operation.
 
 ### Example
 ```java
@@ -456,7 +508,7 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **reqConfig** | [**SwagInsertDocxInsertParagraphRequest**](SwagInsertDocxInsertParagraphRequest.md)|  |
+ **reqConfig** | [**SwagInsertDocxInsertParagraphRequest**](SwagInsertDocxInsertParagraphRequest.md)| Document input request |
 
 ### Return type
 
@@ -475,9 +527,9 @@ Name | Type | Description  | Notes
 # **editDocumentDocxInsertTable**
 > SwagInsertDocxTablesResponse editDocumentDocxInsertTable(reqConfig)
 
-Insert a new table into a DOCX
+Insert a new table into a Word DOCX document
 
-Adds a new table into a DOCX and returns the result
+Adds a new table into a DOCX and returns the result.  Call Finish Editing on the output URL to complete the operation.
 
 ### Example
 ```java
@@ -505,7 +557,7 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **reqConfig** | [**SwagInsertDocxTablesRequest**](SwagInsertDocxTablesRequest.md)|  |
+ **reqConfig** | [**SwagInsertDocxTablesRequest**](SwagInsertDocxTablesRequest.md)| Document input request |
 
 ### Return type
 
@@ -520,13 +572,111 @@ Name | Type | Description  | Notes
  - **Content-Type**: application/json
  - **Accept**: application/json
 
+<a name="editDocumentDocxInsertTableRow"></a>
+# **editDocumentDocxInsertTableRow**
+> SwagInsertDocxTableRowResponse editDocumentDocxInsertTableRow(reqConfig)
+
+Insert a new row into an existing table in a Word DOCX document
+
+Adds a new table row into a DOCX Document and returns the result.  Call Finish Editing on the output URL to complete the operation.
+
+### Example
+```java
+SwagEditDocumentApi api = new SwagEditDocumentApi();
+SwagClient client = api.getClient();
+
+// Configure API key authorization: Apikey
+ApiKeyAuth Apikey = (ApiKeyAuth) client.getAuthentication('Apikey');
+Apikey.setApiKey('YOUR API KEY');
+
+Map<String, Object> params = new Map<String, Object>{
+    'reqConfig' => SwagInsertDocxTableRowRequest.getExample()
+};
+
+try {
+    // cross your fingers
+    SwagInsertDocxTableRowResponse result = api.editDocumentDocxInsertTableRow(params);
+    System.debug(result);
+} catch (Swagger.ApiException e) {
+    // ...handle your exceptions
+}
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **reqConfig** | [**SwagInsertDocxTableRowRequest**](SwagInsertDocxTableRowRequest.md)| Document input request |
+
+### Return type
+
+[**SwagInsertDocxTableRowResponse**](SwagInsertDocxTableRowResponse.md)
+
+### Authorization
+
+[Apikey](../README.md#Apikey)
+
+### HTTP request headers
+
+ - **Content-Type**: application/json
+ - **Accept**: application/json
+
+<a name="editDocumentDocxPages"></a>
+# **editDocumentDocxPages**
+> SwagGetDocxPagesResponse editDocumentDocxPages(reqConfig)
+
+Get pages and content from a Word DOCX document
+
+Returns the pages and contents of each page defined in the Word Document (DOCX) format file
+
+### Example
+```java
+SwagEditDocumentApi api = new SwagEditDocumentApi();
+SwagClient client = api.getClient();
+
+// Configure API key authorization: Apikey
+ApiKeyAuth Apikey = (ApiKeyAuth) client.getAuthentication('Apikey');
+Apikey.setApiKey('YOUR API KEY');
+
+Map<String, Object> params = new Map<String, Object>{
+    'reqConfig' => SwagGetDocxPagesRequest.getExample()
+};
+
+try {
+    // cross your fingers
+    SwagGetDocxPagesResponse result = api.editDocumentDocxPages(params);
+    System.debug(result);
+} catch (Swagger.ApiException e) {
+    // ...handle your exceptions
+}
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **reqConfig** | [**SwagGetDocxPagesRequest**](SwagGetDocxPagesRequest.md)| Document input request |
+
+### Return type
+
+[**SwagGetDocxPagesResponse**](SwagGetDocxPagesResponse.md)
+
+### Authorization
+
+[Apikey](../README.md#Apikey)
+
+### HTTP request headers
+
+ - **Content-Type**: application/json
+ - **Accept**: application/json
+
 <a name="editDocumentDocxRemoveHeadersAndFooters"></a>
 # **editDocumentDocxRemoveHeadersAndFooters**
 > SwagRemoveDocxHeadersAndFootersRespo editDocumentDocxRemoveHeadersAndFooters(reqConfig)
 
-Remove headers and footers from DOCX
+Remove headers and footers from Word DOCX document
 
-Remove all headers, or footers, or both from a Word Document (DOCX)
+Remove all headers, or footers, or both from a Word Document (DOCX).  Call Finish Editing on the output URL to complete the operation.
 
 ### Example
 ```java
@@ -554,7 +704,7 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **reqConfig** | [**SwagRemoveDocxHeadersAndFootersReque**](SwagRemoveDocxHeadersAndFootersReque.md)|  |
+ **reqConfig** | [**SwagRemoveDocxHeadersAndFootersReque**](SwagRemoveDocxHeadersAndFootersReque.md)| Document input request |
 
 ### Return type
 
@@ -573,9 +723,9 @@ Name | Type | Description  | Notes
 # **editDocumentDocxRemoveObject**
 > SwagDocxRemoveObjectResponse editDocumentDocxRemoveObject(reqConfig)
 
-Delete any object in a DOCX
+Delete any object in a Word DOCX document
 
-Delete any object, such as a paragraph, table, image, etc. from a Word Document (DOCX).  Pass in the Path of the object you would like to delete.  You can call other functions such as Get-Tables, Get-Images, Get-Body, etc. to get the paths of the objects in the document.
+Delete any object, such as a paragraph, table, image, etc. from a Word Document (DOCX).  Pass in the Path of the object you would like to delete.  You can call other functions such as Get-Tables, Get-Images, Get-Body, etc. to get the paths of the objects in the document.  Call Finish Editing on the output URL to complete the operation.
 
 ### Example
 ```java
@@ -603,7 +753,7 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **reqConfig** | [**SwagDocxRemoveObjectRequest**](SwagDocxRemoveObjectRequest.md)|  |
+ **reqConfig** | [**SwagDocxRemoveObjectRequest**](SwagDocxRemoveObjectRequest.md)| Document input request |
 
 ### Return type
 
@@ -622,7 +772,7 @@ Name | Type | Description  | Notes
 # **editDocumentDocxReplace**
 > Blob editDocumentDocxReplace(reqConfig)
 
-Replace string in DOCX
+Replace string in Word DOCX document
 
 Replace all instances of a string in an Office Word Document (docx)
 
@@ -652,7 +802,7 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **reqConfig** | [**SwagReplaceStringRequest**](SwagReplaceStringRequest.md)|  |
+ **reqConfig** | [**SwagReplaceStringRequest**](SwagReplaceStringRequest.md)| Document string replacement configuration input |
 
 ### Return type
 
@@ -671,9 +821,9 @@ Name | Type | Description  | Notes
 # **editDocumentDocxSetFooter**
 > SwagDocxSetFooterResponse editDocumentDocxSetFooter(reqConfig)
 
-Set the footer in a DOCX
+Set the footer in a Word DOCX document
 
-Set the footer in a Word Document (DOCX)
+Set the footer in a Word Document (DOCX).  Call Finish Editing on the output URL to complete the operation.
 
 ### Example
 ```java
@@ -701,7 +851,7 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **reqConfig** | [**SwagDocxSetFooterRequest**](SwagDocxSetFooterRequest.md)|  |
+ **reqConfig** | [**SwagDocxSetFooterRequest**](SwagDocxSetFooterRequest.md)| Document input request |
 
 ### Return type
 
@@ -720,9 +870,9 @@ Name | Type | Description  | Notes
 # **editDocumentDocxSetFooterAddPageNumber**
 > SwagDocxSetFooterResponse editDocumentDocxSetFooterAddPageNumber(reqConfig)
 
-Add page number to footer in a DOCX
+Add page number to footer in a Word DOCX document
 
-Set the footer in a Word Document (DOCX) to contain a page number
+Set the footer in a Word Document (DOCX) to contain a page number.  Call Finish Editing on the output URL to complete the operation.
 
 ### Example
 ```java
@@ -750,7 +900,7 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **reqConfig** | [**SwagDocxSetFooterAddPageNumberReques**](SwagDocxSetFooterAddPageNumberReques.md)|  |
+ **reqConfig** | [**SwagDocxSetFooterAddPageNumberReques**](SwagDocxSetFooterAddPageNumberReques.md)| Document input request |
 
 ### Return type
 
@@ -769,9 +919,9 @@ Name | Type | Description  | Notes
 # **editDocumentDocxSetHeader**
 > SwagDocxSetHeaderResponse editDocumentDocxSetHeader(reqConfig)
 
-Set the header in a DOCX
+Set the header in a Word DOCX document
 
-Set the header in a Word Document (DOCX)
+Set the header in a Word Document (DOCX).  Call Finish Editing on the output URL to complete the operation.
 
 ### Example
 ```java
@@ -799,7 +949,7 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **reqConfig** | [**SwagDocxSetHeaderRequest**](SwagDocxSetHeaderRequest.md)|  |
+ **reqConfig** | [**SwagDocxSetHeaderRequest**](SwagDocxSetHeaderRequest.md)| Document input request |
 
 ### Return type
 
@@ -848,7 +998,7 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **reqConfig** | [**SwagFinishEditingRequest**](SwagFinishEditingRequest.md)|  |
+ **reqConfig** | [**SwagFinishEditingRequest**](SwagFinishEditingRequest.md)| Cloudmersive Document URL to complete editing on |
 
 ### Return type
 
@@ -867,7 +1017,7 @@ Name | Type | Description  | Notes
 # **editDocumentPptxReplace**
 > Blob editDocumentPptxReplace(reqConfig)
 
-Replace string in PPTX
+Replace string in PowerPoint PPTX presentation
 
 Replace all instances of a string in an Office PowerPoint Document (pptx)
 
@@ -897,7 +1047,7 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **reqConfig** | [**SwagReplaceStringRequest**](SwagReplaceStringRequest.md)|  |
+ **reqConfig** | [**SwagReplaceStringRequest**](SwagReplaceStringRequest.md)| Replacement document configuration input |
 
 ### Return type
 
@@ -916,7 +1066,7 @@ Name | Type | Description  | Notes
 # **editDocumentXlsxGetColumns**
 > SwagGetXlsxColumnsResponse editDocumentXlsxGetColumns(input)
 
-Get rows and cells from a XLSX worksheet
+Get rows and cells from a Excel XLSX spreadsheet, worksheet
 
 Returns the rows and cells defined in the Excel Spreadsheet worksheet
 
@@ -946,7 +1096,7 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **input** | [**SwagGetXlsxColumnsRequest**](SwagGetXlsxColumnsRequest.md)|  |
+ **input** | [**SwagGetXlsxColumnsRequest**](SwagGetXlsxColumnsRequest.md)| Document input request |
 
 ### Return type
 
@@ -965,7 +1115,7 @@ Name | Type | Description  | Notes
 # **editDocumentXlsxGetImages**
 > SwagGetXlsxImagesResponse editDocumentXlsxGetImages(input)
 
-Get images from a XLSX worksheet
+Get images from a Excel XLSX spreadsheet, worksheet
 
 Returns the images defined in the Excel Spreadsheet worksheet
 
@@ -995,7 +1145,7 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **input** | [**SwagGetXlsxImagesRequest**](SwagGetXlsxImagesRequest.md)|  |
+ **input** | [**SwagGetXlsxImagesRequest**](SwagGetXlsxImagesRequest.md)| Document input request |
 
 ### Return type
 
@@ -1014,7 +1164,7 @@ Name | Type | Description  | Notes
 # **editDocumentXlsxGetRowsAndCells**
 > SwagGetXlsxRowsAndCellsResponse editDocumentXlsxGetRowsAndCells(input)
 
-Get rows and cells from a XLSX worksheet
+Get rows and cells from a Word XLSX spreadsheet, worksheet
 
 Returns the rows and cells defined in the Excel Spreadsheet worksheet
 
@@ -1044,7 +1194,7 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **input** | [**SwagGetXlsxRowsAndCellsRequest**](SwagGetXlsxRowsAndCellsRequest.md)|  |
+ **input** | [**SwagGetXlsxRowsAndCellsRequest**](SwagGetXlsxRowsAndCellsRequest.md)| Document input request |
 
 ### Return type
 
@@ -1063,7 +1213,7 @@ Name | Type | Description  | Notes
 # **editDocumentXlsxGetStyles**
 > SwagGetXlsxStylesResponse editDocumentXlsxGetStyles(input)
 
-Get styles from a XLSX worksheet
+Get styles from a Excel XLSX spreadsheet, worksheet
 
 Returns the style defined in the Excel Spreadsheet
 
@@ -1093,7 +1243,7 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **input** | [**SwagGetXlsxStylesRequest**](SwagGetXlsxStylesRequest.md)|  |
+ **input** | [**SwagGetXlsxStylesRequest**](SwagGetXlsxStylesRequest.md)| Document input request |
 
 ### Return type
 
@@ -1112,7 +1262,7 @@ Name | Type | Description  | Notes
 # **editDocumentXlsxGetWorksheets**
 > SwagGetXlsxWorksheetsResponse editDocumentXlsxGetWorksheets(input)
 
-Get worksheets from a XLSX
+Get worksheets from a Excel XLSX spreadsheet
 
 Returns the worksheets (tabs) defined in the Excel Spreadsheet (XLSX) format file
 
@@ -1142,7 +1292,7 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **input** | [**SwagGetXlsxWorksheetsRequest**](SwagGetXlsxWorksheetsRequest.md)|  |
+ **input** | [**SwagGetXlsxWorksheetsRequest**](SwagGetXlsxWorksheetsRequest.md)| Document input request |
 
 ### Return type
 
@@ -1161,7 +1311,7 @@ Name | Type | Description  | Notes
 # **editDocumentXlsxInsertWorksheet**
 > SwagInsertXlsxWorksheetResponse editDocumentXlsxInsertWorksheet(input)
 
-Insert a new worksheet into an XLSX spreadsheet
+Insert a new worksheet into an Excel XLSX spreadsheet
 
 Inserts a new worksheet into an Excel Spreadsheet
 
@@ -1191,7 +1341,7 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **input** | [**SwagInsertXlsxWorksheetRequest**](SwagInsertXlsxWorksheetRequest.md)|  |
+ **input** | [**SwagInsertXlsxWorksheetRequest**](SwagInsertXlsxWorksheetRequest.md)| Document input request |
 
 ### Return type
 
